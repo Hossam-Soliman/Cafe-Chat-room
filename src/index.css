@@ -1,0 +1,165 @@
+
+body{
+  background-color: #95e8f3;
+}
+
+nav{
+  background-color: #3C3A3A;
+  height: 67px;
+  position: absolute;
+  z-index: 10;
+  top:-7px
+  /* background-color: transparent; */
+}
+
+.myNav span{
+  font-size: x-large;
+}
+
+.SignedInLinks ul{
+  list-style: none;
+  float: right;
+  margin-top: -65px;
+}
+
+.SignedInLinks li{
+  float: left;
+
+}
+
+.SignedInLinks li a{
+  color:#fff;
+  font-size: larger;
+}
+
+
+.SignedOutLinks ul{
+  list-style: none;
+  float: right;
+  margin-top: -65px;
+  margin-right: 50px;
+}
+
+.SignedOutLinks li{
+  float: left;
+
+}
+
+.SignedOutLinks li a{
+  color:#fff;
+  font-size: larger;
+  margin-right: 20px
+}
+
+.Dashboard{
+  margin-top: 30px;
+}
+
+form{
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+form #content{
+  height: 70px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+.ProjectSummary span{
+  color: black
+}
+
+.ProjectSummary p{
+  color: #E11E33;
+  font-weight: light;
+}
+
+.ProjectDetails{
+  margin-top: 50px
+}
+
+.ProjectDetails span{
+  color: darkblue
+}
+
+
+.Welcome{
+  background-color: #fff !important
+}
+.Welcome img{
+  position: absolute;  
+  height: 100%;
+  width: 100%;
+  top:0
+ 
+}
+
+.ProjectSummary, .notifications, .ProjectDetails{
+  margin-top: 100px;
+}
+
+.chat{
+
+  margin-top: 100px;
+  /* margin: 120px 400px;
+  max-width: 600px; */
+  background-color: white;
+}
+
+
+#chat-window{
+  height: 400px;
+  overflow: auto;
+  background: #f9f9f9;
+}
+
+#output p{
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #555;
+}
+
+#feedback p{
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
+}
+
+#output strong{
+  color: #575ed8;
+}
+
+.chat label{
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px !important
+}
+
+.chat input[type=text]:not(.browser-default){
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: Nunito;
+  font-size: 16px;
+}
+
+.chat button{
+  background: #3C3A3A;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  margin-top: -10px;
+}
